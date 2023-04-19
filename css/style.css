@@ -4,13 +4,14 @@ body{
 	margin:1%;
 	padding:1%;
 	font-size:150%;
+    font-family: 'EB Garamond', Arial, monospace;
     background-color: #36454F;
 }
 
 /*Make the h1 heading bigger with a bold font*/
 h1{
 	font-size: 2em; 
-	font-weight: bold;
+	font-weight: bold;      
 }
 
 .active{
@@ -127,6 +128,23 @@ a:visited{color:#0000FF}
     animation: fadeIn 10s;
     align-self: flex-end;
 }
+
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
 
 @keyframes fadeIn {
     0% { opacity: 0; }
