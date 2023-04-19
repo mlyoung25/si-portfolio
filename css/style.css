@@ -131,7 +131,7 @@ a:visited{color:#0000FF}
 
 .accordion {
     color: #444;
-    cursor: pointer;
+    cursor: pointer;    
     padding: 18px;
     width: 100%;
     text-align: left;
@@ -139,7 +139,11 @@ a:visited{color:#0000FF}
     outline: none;
     transition: 0.4s;
   }
-  
+
+.accordion:focus {
+    background-color: #ccc;
+  }
+
   .panel {
     padding: 0 18px;
     display: none;
