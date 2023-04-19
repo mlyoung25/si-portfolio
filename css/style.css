@@ -137,7 +137,7 @@ a:visited{color:#0000FF}
     .about {
         display: grid;
         width: 100%;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 1cm;
     }
 }
@@ -146,8 +146,13 @@ a:visited{color:#0000FF}
     .about {
         display: grid;
         width: 100%;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 1cm;
+    }
+
+    .about img{
+        width: max-content;
+        height: max-content;
     }
 }
 
